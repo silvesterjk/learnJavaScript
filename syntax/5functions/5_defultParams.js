@@ -15,3 +15,11 @@ function writeBECode(language= 'Python') { // Default value is Python
 
 writeCode('JavaScript'); // write code in JavaScript
 writeCode(); // write code in Python
+
+console.log('-------------------');
+
+function courseDetails(courseName='JSMastery', price=100) { // Default value is 100
+    console.log(`Course name: ${courseName}, Price: ${price}`);
+}
+
+courseDetails('React', 200); // Course name: React, Price: 200
