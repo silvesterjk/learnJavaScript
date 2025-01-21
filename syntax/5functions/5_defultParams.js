@@ -6,3 +6,12 @@ function writeCode(language) {
 
 writeCode('JavaScript'); // write code in JavaScript
 writeCode(); // write code in undefined
+
+console.log('-------------------');
+
+function writeBECode(language= 'Python') { // Default value is Python
+    console.log(`write code in ${language}`);
+}
+
+writeCode('JavaScript'); // write code in JavaScript
+writeCode(); // write code in Python
