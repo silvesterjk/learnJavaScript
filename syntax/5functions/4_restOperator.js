@@ -10,6 +10,8 @@ let course2 = {
 
 console.log(course2); // { name: 'React', price: 100 }
 
+// rest operator is used in function parameters and it allows us to pass an indefinite number of arguments to a function and it would collect them in an array
+
 function multiply(...args) {
     console.log(args); // [ 2, 3, 10 ] --> This array has 2,3,10 because the function was called with 2,3,10
     return args.reduce((accumulator, currentValue) => accumulator * currentValue, 1);
@@ -26,3 +28,4 @@ function mult (multiplier, ...numbers) { // ...numbers is the rest operator. It 
 
 console.log(mult(2, 3, 10, 2, 3)); // [ 6, 20, 4, 6 ] --> This arrsay has 6,20,4,6 because the function was called with 2,3,10,2,3
 // Here the first value is multiplied by all the other values in the array
+
