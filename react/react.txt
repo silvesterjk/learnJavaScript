@@ -1,7 +1,7 @@
-1. React is state driven.
+1. React is state driven. It uses virtual DOM to update the UI efficiently.
 2. State --> Render --> UI --> Update State --> Re-render --> UI
 3. React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
-4. React reacts to state changes and updates the UI.
+4. React reacts to state changes and updates the UI. 
 5. React is not a framework, it is a library. It is not a complete solution and it is not opinionated.
 6. For example React does not provide a way to make HTTP requests, it does not provide a way to manage state, it does not provide a way to manage routing.
 7. You need external libraries to do these things. Such as Axios for HTTP requests, Redux for state management, React Router for routing.
