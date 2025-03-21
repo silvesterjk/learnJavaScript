@@ -18,10 +18,10 @@ let veryLargeNumber = 5456366643254n;
 
 // Boolean
 let youDumb = false;
-youAmazing = true;
+youAmazing = true; // Here let is not required because the variable is already declared in the previous line.
 
-console.log(youDumb);
-console.log(youAmazing);
+console.log(youDumb); // -> false
+console.log(youAmazing); 
 
 // Undefined
 let youAreNotDefined;
