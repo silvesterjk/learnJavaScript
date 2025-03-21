@@ -1,0 +1,2 @@
+1. React is state driven.
+2. State --> Render --> UI --> Update State --> Re-render --> UI
