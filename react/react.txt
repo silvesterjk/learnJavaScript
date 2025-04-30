@@ -21,3 +21,4 @@
 21. Lifecycle methods are methods that are called at different stages of a component's life. For example, when a component is mounted, updated, or unmounted.
 22. React components can have event handlers. 
 23. Event handlers are functions that are called when an event occurs. For example, when a user clicks a button or when a user types in a text field.
+24. React components can have children. 
