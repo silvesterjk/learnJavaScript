@@ -15,3 +15,10 @@
 15. React components can be functional or class based.
 16. Functional components are simpler and easier to read.
 17. Class components have more features and are more powerful.
+18. React components can have state and props.
+19. State is mutable and can be changed. Props are immutable and cannot be changed.
+20. React components can have lifecycle methods. 
+21. Lifecycle methods are methods that are called at different stages of a component's life. For example, when a component is mounted, updated, or unmounted.
+22. React components can have event handlers. 
+23. Event handlers are functions that are called when an event occurs. For example, when a user clicks a button or when a user types in a text field.
+24. React components can have children. 
