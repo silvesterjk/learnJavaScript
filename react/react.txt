@@ -22,3 +22,7 @@
 22. React components can have event handlers. 
 23. Event handlers are functions that are called when an event occurs. For example, when a user clicks a button or when a user types in a text field.
 24. React components can have children. 
+
+Note:
+1. React is a library, not a framework.
+
