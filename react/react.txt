@@ -25,4 +25,5 @@
 
 Note:
 1. React is a library, not a framework.
-
+2. React is not opinionated.
+3. React is not a complete solution.
