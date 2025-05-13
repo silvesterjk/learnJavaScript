@@ -153,3 +153,6 @@ function getBook(id) {
 
 // console.log(getBook(1));
 // console.log(getBooks());
+
+const book = getBook(2);
+console.log(book);
