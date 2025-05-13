@@ -162,5 +162,5 @@ const {title, author, genres} = book;
 console.log(title, author, genres); // The Cyberiad Stanislaw Lem
 
 
-const [primaryGenre, secondaryGenre] = genres;
-console.log(primaryGenre, secondaryGenre); // science fiction humor
+const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
+console.log(primaryGenre, secondaryGenre, otherGenres); // science fiction humor
