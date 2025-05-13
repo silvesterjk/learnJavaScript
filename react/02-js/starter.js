@@ -160,7 +160,29 @@ const book = getBook(2);
 
 const {title, author, genres} = book;
 console.log(title, author, genres); // The Cyberiad Stanislaw Lem
+// { title: 'The Cyberiad', author: 'Stanislaw Lem', genres: [ 'science fiction', 'humor', 'speculative fiction', 'short stories', 'fantasy' ] }
 
-
-const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
+const [primaryGenre, secondaryGenre, ...otherGenres] = genres; // The rest operator ...otherGenres always needs to be in the end.
 console.log(primaryGenre, secondaryGenre, otherGenres); // science fiction humor
+// [ 'science fiction', 'humor', 'speculative fiction', 'short stories', 'fantasy' ]
+
+// The same  ... is also used for spread operator. Which is used to spread an array into individual elements.
+const newGenres = [...genres, 'epic fantasy'];
+console.log(newGenres); // science fiction humor epic fantasy
+// [ 'science fiction', 'humor', 'speculative fiction', 'short stories', 'fantasy', 'epic fantasy' ]
+
+// The spread operator can also be used to spread an object into individual elements.
+const newBook = {
+    // Takes all the properties from the book object
+    ...book,
+
+    // Adding a new property to the object
+    
+    moviePublicationDate: '2023-01-01', 
+
+    // Overriding an existing property
+    pages: 499};
+
+
+console.log(newBook);
+// { id: 2, title: 'The Cyberiad', publicationDate: '1965-01-01', author: 'Stanislaw Lem', genres: [ 'science fiction', 'humor', 'speculative fiction', 'short stories', 'fantasy' ], hasMovieAdaptation: false, pages: 295, translations: {}, reviews: { goodreads: { rating: 4.16, ratingsCount: 11663, reviewsCount: 812 }, librarything: { rating: 4.13, ratingsCount: 2434, reviewsCount: 0 } }, moviePublicationDate: '2023-01-01', pages: 499 }
