@@ -158,5 +158,9 @@ const book = getBook(2);
 // const title = book.title;
 // const author = book.author;
 
-const {title, author} = book;
-console.log(title, author); // The Cyberiad Stanislaw Lem
+const {title, author, genres} = book;
+console.log(title, author, genres); // The Cyberiad Stanislaw Lem
+
+
+const [primaryGenre, secondaryGenre] = genres;
+console.log(primaryGenre, secondaryGenre); // science fiction humor
