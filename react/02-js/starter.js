@@ -151,4 +151,5 @@ function getBook(id) {
     return data.find((d) => d.id === id);
 }
 
-
+// console.log(getBook(1));
+// console.log(getBooks());
