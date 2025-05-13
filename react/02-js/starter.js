@@ -155,4 +155,6 @@ function getBook(id) {
 // console.log(getBooks());
 
 const book = getBook(2);
-console.log(book);
+const title = book.title;
+const author = book.author;
+console.log(title, author); // The Cyberiad Stanislaw Lem
