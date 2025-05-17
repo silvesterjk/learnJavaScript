@@ -190,3 +190,5 @@ console.log(newBook);
 // The spread operator can also be used to spread an object into individual elements.
 const newAuthor = {...author, name: 'John Doe'};
 
+
+
