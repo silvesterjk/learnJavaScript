@@ -191,5 +191,6 @@ console.log(newBook);
 const newAuthor = {...author, name: 'John Doe'};
 
 console.log(newAuthor);
+// { name: 'John Doe', author: 'Stanislaw Lem' }
 
 
